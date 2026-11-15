@@ -1,0 +1,55 @@
+# ============================================================
+# Classical Computer Vision Baseline Configuration — Person B4
+# ============================================================
+# Controls the traditional computer vision baseline pipeline:
+#   src.classical_cv.baseline.run_classical_pipeline
+# ============================================================
+
+# --- Band Selection ---
+# Provisional r-band reference recommendation based on diagnostics from two
+# representative samples. Broader validation across the dataset is required.
+# Configurable options: 'g', 'r', 'i', 'z', 'y'
+reference_band: "r"
+reference_hdu: 1
+
+# --- Provisional Normalization ---
+# Maps valid pixel flux to [0, 1] for classical operators.
+normalization:
+  lower_percentile: 0.5
+  upper_percentile: 99.5
+
+# --- Thresholding ---
+thresholding:
+  method: "otsu"          # 'otsu' or 'adaptive'
+  otsu_bins: 256
+  adaptive_window: 25     # odd integer >= 3
+  adaptive_c: 0.0         # offset subtracted from local mean
+
+# --- Morphology ---
+morphology:
+  structuring_element: "disk" # 'disk', 'square', or 'cross'
+  radius: 1                   # pixel radius (kernel size = 2*radius + 1)
+  apply_opening: true         # removes isolated noise spikes
+  apply_closing: true         # bridges narrow breaks in galaxy arms
+
+# --- Connected Components ---
+connected_components:
+  connectivity: 8             # 4 or 8
+  min_area: 1                 # default 1 preserves faint/small components
+
+# --- Marker-Controlled Watershed ---
+watershed:
+  surface: "inverted_distance" # '-distance_transform_edt'
+  marker_min_distance: 5       # minimum separation between markers (pixels)
+  marker_threshold: 2.0        # minimum distance-to-background for marker seeds
+  connectivity: 8              # 4 or 8
+
+# --- Evaluation and Scientific Guardrails ---
+evaluation:
+  ignore_index: 255
+  evaluate_binary_foreground: true
+  note: >
+    Raw value 0 is 'no relevant data' and mapped to ignore index 255.
+    Classical thresholding and watershed outputs are not four-class
+    semantic predictions. Direct 4-class semantic metrics must NOT be
+    computed from unlabeled binary masks or watershed basin IDs.

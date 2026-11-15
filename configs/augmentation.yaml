@@ -1,0 +1,63 @@
+# ============================================================
+# Augmentation configuration — Person B3
+# ============================================================
+# This file controls the data-augmentation pipeline built by
+#   src.preprocessing.augmentation.build_augmentation_pipeline
+#
+# Three split sections are required: train, val, test.
+# Validation and test splits MUST NOT enable stochastic
+# augmentation — only deterministic operations (e.g. padding)
+# are permitted.
+# ============================================================
+
+# --- Reproducibility ---
+seed: 42
+
+# --------------------------------------------------------
+# Training augmentation
+# --------------------------------------------------------
+train:
+  # Geometric (spatial) — applied identically to image, mask, validity mask
+  horizontal_flip: true
+  horizontal_flip_p: 0.5
+
+  vertical_flip: true
+  vertical_flip_p: 0.5
+
+  random_rotate90: true
+  random_rotate90_p: 0.5
+
+  # Photometric (image only) — mask is never modified
+  photometric_jitter: true
+  photometric_jitter_p: 0.3
+  brightness_min: 0.9
+  brightness_max: 1.1
+  contrast_min: 0.9
+  contrast_max: 1.1
+
+  # Optional deterministic padding (disabled by default)
+  # Enable and set target dimensions when the downstream model
+  # requires a specific input size (e.g. 256×256 for SegFormer-B0).
+  pad: false
+  # pad_target_h: 256
+  # pad_target_w: 256
+
+# --------------------------------------------------------
+# Validation — deterministic only, no stochastic transforms
+# --------------------------------------------------------
+val:
+  horizontal_flip: false
+  vertical_flip: false
+  random_rotate90: false
+  photometric_jitter: false
+  pad: false
+
+# --------------------------------------------------------
+# Test — deterministic only, no stochastic transforms
+# --------------------------------------------------------
+test:
+  horizontal_flip: false
+  vertical_flip: false
+  random_rotate90: false
+  photometric_jitter: false
+  pad: false
