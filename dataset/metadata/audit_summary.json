@@ -1,11 +1,11 @@
 {
   "deep": true,
-  "elapsed_seconds": 112.354,
+  "elapsed_seconds": 129.528,
   "image_hdu_count_distribution": {
-    "5": 2702
+    "5": 2908
   },
   "image_shape_distribution": {
-    "208x208": 2702
+    "208x208": 2908
   },
   "mask_hdu_count_distribution": {
     "1": 2908
@@ -13,20 +13,19 @@
   "mask_shape_distribution": {
     "208x208": 2908
   },
-  "n_image_files": 2702,
-  "n_image_rows_with_nonfinite": 115,
+  "n_image_files": 2908,
+  "n_image_rows_with_nonfinite": 127,
   "n_manifest_rows": 2908,
   "n_mask_files": 2908,
   "n_mask_rows_with_nonfinite": 0,
   "n_non_fits_files": 1,
-  "n_total_fits_files": 5610,
+  "n_total_fits_files": 5816,
   "n_unique_sample_ids": 2908,
   "n_unreadable_files": 0,
   "n_unrecognized_fits_files": 0,
   "root": "dataset\\raw",
   "status_counts": {
-    "missing_image": 206,
-    "ok": 2702
+    "ok": 2908
   },
   "union_mask_raw_values": [
     0,
