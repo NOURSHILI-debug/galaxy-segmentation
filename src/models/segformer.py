@@ -255,3 +255,5 @@ def build_segformer(
         config = {}
     merged = {**config, **kwargs}
     return SegFormerForSegmentation(**merged)
+
+
