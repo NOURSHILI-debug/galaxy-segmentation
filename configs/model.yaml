@@ -1,0 +1,47 @@
+# ============================================================
+# Model configuration — Person B5 (SegFormer-B0)
+# ============================================================
+# Controls the SegFormer-B0 semantic segmentation model built by
+#   src.models.segformer.SegFormerForSegmentation
+# (and src.models.segformer.build_segformer).
+#
+# Architecture contract (frozen):
+#   * Exactly one deep-learning architecture: SegFormer-B0.
+#   * Pretrained encoder: NVIDIA MiT-B0 (nvidia/mit-b0).
+#   * Segmentation head adapted to four verified trainable classes.
+#   * Transfer learning and fine-tuning.
+# ============================================================
+
+# --- Pretrained encoder ---
+encoder:
+  # Genuine pretrained MiT-B0 checkpoint (verified in B5.1).
+  checkpoint: "nvidia/mit-b0"
+  # Load genuine pretrained weights (not random initialization).
+  pretrained: true
+  # Whether encoder parameters require gradients (fine-tuning mode).
+  # Set false to freeze the encoder (feature-extraction mode).
+  encoder_trainable: true
+
+# --- Input ---
+input:
+  # Input channels. The pretrained MiT-B0 stem expects exactly 3 channels
+  # (num_channels = 3 in nvidia/mit-b0 config). The astronomy dataset's
+  # final input-channel strategy has NOT been jointly approved with Person A,
+  # so this is the pretrained-encoder test value, not a final data decision.
+  channels: 3
+  height: 256
+  width: 256
+
+# --- SegFormer decoder ---
+decoder:
+  # Common decoder embedding dimension for per-stage projections and fusion.
+  embed_dim: 256
+  # Dropout probability applied after the fusion layer.
+  dropout: 0.1
+
+# --- Segmentation head ---
+head:
+  # Exactly four verified trainable classes (raw mask values 1-4).
+  num_classes: 4
+  # Ignore index (raw mask value 0 -> 255).
+  ignore_index: 255
