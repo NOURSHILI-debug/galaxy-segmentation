@@ -1,0 +1,1505 @@
+{
+  "data_quality": {
+    "mask_labels": {
+      "available": true,
+      "declared_allowed_raw_values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "non_finite_hdu_count": 0,
+      "non_finite_pixel_count": 0,
+      "non_integer_like_hdu_count": 0,
+      "observed_raw_values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "raw_value_frequencies": [
+        {
+          "mask_count": 2907,
+          "pixel_count": 103962425,
+          "value": 0
+        },
+        {
+          "mask_count": 2902,
+          "pixel_count": 24812,
+          "value": 1
+        },
+        {
+          "mask_count": 2520,
+          "pixel_count": 5242726,
+          "value": 2
+        },
+        {
+          "mask_count": 2638,
+          "pixel_count": 16556365,
+          "value": 3
+        },
+        {
+          "mask_count": 1866,
+          "pixel_count": 25384,
+          "value": 4
+        }
+      ],
+      "source": "dataset/metadata/mask_audit.json",
+      "total_pixel_count": 125811712,
+      "unexpected_raw_values": []
+    },
+    "non_finite_images": {
+      "available": true,
+      "entries": [
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1,
+          "path": "dataset/raw/imagedata_1-101266.fits",
+          "sample_id": "1-101266"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 14,
+          "path": "dataset/raw/imagedata_1-103045.fits",
+          "sample_id": "1-103045"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1280,
+          "path": "dataset/raw/imagedata_1-103458.fits",
+          "sample_id": "1-103458"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 238,
+          "path": "dataset/raw/imagedata_1-11594.fits",
+          "sample_id": "1-11594"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 20,
+          "path": "dataset/raw/imagedata_1-117115.fits",
+          "sample_id": "1-117115"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 30,
+          "path": "dataset/raw/imagedata_1-121236.fits",
+          "sample_id": "1-121236"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 28,
+          "path": "dataset/raw/imagedata_1-134195.fits",
+          "sample_id": "1-134195"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 23,
+          "path": "dataset/raw/imagedata_1-153082.fits",
+          "sample_id": "1-153082"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 78,
+          "path": "dataset/raw/imagedata_1-153082.fits",
+          "sample_id": "1-153082"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 133,
+          "path": "dataset/raw/imagedata_1-153339.fits",
+          "sample_id": "1-153339"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 762,
+          "path": "dataset/raw/imagedata_1-16062.fits",
+          "sample_id": "1-16062"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 50,
+          "path": "dataset/raw/imagedata_1-163831.fits",
+          "sample_id": "1-163831"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 57,
+          "path": "dataset/raw/imagedata_1-169308.fits",
+          "sample_id": "1-169308"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 17,
+          "path": "dataset/raw/imagedata_1-169411.fits",
+          "sample_id": "1-169411"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 39,
+          "path": "dataset/raw/imagedata_1-176546.fits",
+          "sample_id": "1-176546"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 65,
+          "path": "dataset/raw/imagedata_1-180618.fits",
+          "sample_id": "1-180618"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 135,
+          "path": "dataset/raw/imagedata_1-180618.fits",
+          "sample_id": "1-180618"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 140,
+          "path": "dataset/raw/imagedata_1-180618.fits",
+          "sample_id": "1-180618"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 164,
+          "path": "dataset/raw/imagedata_1-182929.fits",
+          "sample_id": "1-182929"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 45,
+          "path": "dataset/raw/imagedata_1-186561.fits",
+          "sample_id": "1-186561"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 427,
+          "path": "dataset/raw/imagedata_1-210944.fits",
+          "sample_id": "1-210944"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 16,
+          "path": "dataset/raw/imagedata_1-220.fits",
+          "sample_id": "1-220"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 414,
+          "path": "dataset/raw/imagedata_1-222252.fits",
+          "sample_id": "1-222252"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 47,
+          "path": "dataset/raw/imagedata_1-227585.fits",
+          "sample_id": "1-227585"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 378,
+          "path": "dataset/raw/imagedata_1-228304.fits",
+          "sample_id": "1-228304"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1197,
+          "path": "dataset/raw/imagedata_1-228435.fits",
+          "sample_id": "1-228435"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 578,
+          "path": "dataset/raw/imagedata_1-228856.fits",
+          "sample_id": "1-228856"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 131,
+          "path": "dataset/raw/imagedata_1-232658.fits",
+          "sample_id": "1-232658"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 141,
+          "path": "dataset/raw/imagedata_1-234092.fits",
+          "sample_id": "1-234092"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 125,
+          "path": "dataset/raw/imagedata_1-234092.fits",
+          "sample_id": "1-234092"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 165,
+          "path": "dataset/raw/imagedata_1-234092.fits",
+          "sample_id": "1-234092"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 136,
+          "path": "dataset/raw/imagedata_1-234092.fits",
+          "sample_id": "1-234092"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 359,
+          "path": "dataset/raw/imagedata_1-245497.fits",
+          "sample_id": "1-245497"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 179,
+          "path": "dataset/raw/imagedata_1-248634.fits",
+          "sample_id": "1-248634"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 168,
+          "path": "dataset/raw/imagedata_1-248634.fits",
+          "sample_id": "1-248634"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 78,
+          "path": "dataset/raw/imagedata_1-248634.fits",
+          "sample_id": "1-248634"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 14,
+          "path": "dataset/raw/imagedata_1-248932.fits",
+          "sample_id": "1-248932"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 96,
+          "path": "dataset/raw/imagedata_1-250373.fits",
+          "sample_id": "1-250373"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 97,
+          "path": "dataset/raw/imagedata_1-250373.fits",
+          "sample_id": "1-250373"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 122,
+          "path": "dataset/raw/imagedata_1-250373.fits",
+          "sample_id": "1-250373"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 129,
+          "path": "dataset/raw/imagedata_1-250373.fits",
+          "sample_id": "1-250373"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 9,
+          "path": "dataset/raw/imagedata_1-250373.fits",
+          "sample_id": "1-250373"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 1,
+          "path": "dataset/raw/imagedata_1-255248.fits",
+          "sample_id": "1-255248"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 69,
+          "path": "dataset/raw/imagedata_1-261274.fits",
+          "sample_id": "1-261274"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 108,
+          "path": "dataset/raw/imagedata_1-264543.fits",
+          "sample_id": "1-264543"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1,
+          "path": "dataset/raw/imagedata_1-26611.fits",
+          "sample_id": "1-26611"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 118,
+          "path": "dataset/raw/imagedata_1-26611.fits",
+          "sample_id": "1-26611"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 49,
+          "path": "dataset/raw/imagedata_1-26611.fits",
+          "sample_id": "1-26611"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 1,
+          "path": "dataset/raw/imagedata_1-26611.fits",
+          "sample_id": "1-26611"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 24,
+          "path": "dataset/raw/imagedata_1-274847.fits",
+          "sample_id": "1-274847"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 4,
+          "path": "dataset/raw/imagedata_1-277052.fits",
+          "sample_id": "1-277052"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 163,
+          "path": "dataset/raw/imagedata_1-279719.fits",
+          "sample_id": "1-279719"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 7,
+          "path": "dataset/raw/imagedata_1-285136.fits",
+          "sample_id": "1-285136"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 313,
+          "path": "dataset/raw/imagedata_1-285392.fits",
+          "sample_id": "1-285392"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1644,
+          "path": "dataset/raw/imagedata_1-300105.fits",
+          "sample_id": "1-300105"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 81,
+          "path": "dataset/raw/imagedata_1-301438.fits",
+          "sample_id": "1-301438"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 97,
+          "path": "dataset/raw/imagedata_1-301579.fits",
+          "sample_id": "1-301579"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 19,
+          "path": "dataset/raw/imagedata_1-309733.fits",
+          "sample_id": "1-309733"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 26,
+          "path": "dataset/raw/imagedata_1-309733.fits",
+          "sample_id": "1-309733"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 4,
+          "path": "dataset/raw/imagedata_1-309733.fits",
+          "sample_id": "1-309733"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1100,
+          "path": "dataset/raw/imagedata_1-313700.fits",
+          "sample_id": "1-313700"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 61,
+          "path": "dataset/raw/imagedata_1-324715.fits",
+          "sample_id": "1-324715"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 105,
+          "path": "dataset/raw/imagedata_1-32827.fits",
+          "sample_id": "1-32827"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1723,
+          "path": "dataset/raw/imagedata_1-330653.fits",
+          "sample_id": "1-330653"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 61,
+          "path": "dataset/raw/imagedata_1-343658.fits",
+          "sample_id": "1-343658"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 95,
+          "path": "dataset/raw/imagedata_1-344428.fits",
+          "sample_id": "1-344428"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 33,
+          "path": "dataset/raw/imagedata_1-34675.fits",
+          "sample_id": "1-34675"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 16,
+          "path": "dataset/raw/imagedata_1-350204.fits",
+          "sample_id": "1-350204"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 10,
+          "path": "dataset/raw/imagedata_1-350898.fits",
+          "sample_id": "1-350898"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 59,
+          "path": "dataset/raw/imagedata_1-36832.fits",
+          "sample_id": "1-36832"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 941,
+          "path": "dataset/raw/imagedata_1-369947.fits",
+          "sample_id": "1-369947"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 5,
+          "path": "dataset/raw/imagedata_1-370001.fits",
+          "sample_id": "1-370001"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 33,
+          "path": "dataset/raw/imagedata_1-372943.fits",
+          "sample_id": "1-372943"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 25,
+          "path": "dataset/raw/imagedata_1-381275.fits",
+          "sample_id": "1-381275"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 6,
+          "path": "dataset/raw/imagedata_1-38348.fits",
+          "sample_id": "1-38348"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 197,
+          "path": "dataset/raw/imagedata_1-38550.fits",
+          "sample_id": "1-38550"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 197,
+          "path": "dataset/raw/imagedata_1-38550.fits",
+          "sample_id": "1-38550"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 91,
+          "path": "dataset/raw/imagedata_1-387039.fits",
+          "sample_id": "1-387039"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 2810,
+          "path": "dataset/raw/imagedata_1-387039.fits",
+          "sample_id": "1-387039"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 9,
+          "path": "dataset/raw/imagedata_1-39197.fits",
+          "sample_id": "1-39197"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 140,
+          "path": "dataset/raw/imagedata_1-396395.fits",
+          "sample_id": "1-396395"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 47,
+          "path": "dataset/raw/imagedata_1-413033.fits",
+          "sample_id": "1-413033"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1493,
+          "path": "dataset/raw/imagedata_1-416222.fits",
+          "sample_id": "1-416222"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 652,
+          "path": "dataset/raw/imagedata_1-42131.fits",
+          "sample_id": "1-42131"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 304,
+          "path": "dataset/raw/imagedata_1-42131.fits",
+          "sample_id": "1-42131"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 167,
+          "path": "dataset/raw/imagedata_1-42646.fits",
+          "sample_id": "1-42646"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1,
+          "path": "dataset/raw/imagedata_1-428193.fits",
+          "sample_id": "1-428193"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 418,
+          "path": "dataset/raw/imagedata_1-437433.fits",
+          "sample_id": "1-437433"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 346,
+          "path": "dataset/raw/imagedata_1-439886.fits",
+          "sample_id": "1-439886"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 17747,
+          "path": "dataset/raw/imagedata_1-44210.fits",
+          "sample_id": "1-44210"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 161,
+          "path": "dataset/raw/imagedata_1-443343.fits",
+          "sample_id": "1-443343"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 4,
+          "path": "dataset/raw/imagedata_1-444338.fits",
+          "sample_id": "1-444338"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 151,
+          "path": "dataset/raw/imagedata_1-447158.fits",
+          "sample_id": "1-447158"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 1059,
+          "path": "dataset/raw/imagedata_1-4487.fits",
+          "sample_id": "1-4487"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 81,
+          "path": "dataset/raw/imagedata_1-449722.fits",
+          "sample_id": "1-449722"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 141,
+          "path": "dataset/raw/imagedata_1-449722.fits",
+          "sample_id": "1-449722"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 45,
+          "path": "dataset/raw/imagedata_1-449722.fits",
+          "sample_id": "1-449722"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 59,
+          "path": "dataset/raw/imagedata_1-449722.fits",
+          "sample_id": "1-449722"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 21,
+          "path": "dataset/raw/imagedata_1-449722.fits",
+          "sample_id": "1-449722"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 221,
+          "path": "dataset/raw/imagedata_1-450380.fits",
+          "sample_id": "1-450380"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 105,
+          "path": "dataset/raw/imagedata_1-457054.fits",
+          "sample_id": "1-457054"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 1,
+          "path": "dataset/raw/imagedata_1-461422.fits",
+          "sample_id": "1-461422"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 211,
+          "path": "dataset/raw/imagedata_1-47305.fits",
+          "sample_id": "1-47305"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 4,
+          "path": "dataset/raw/imagedata_1-48174.fits",
+          "sample_id": "1-48174"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 5,
+          "path": "dataset/raw/imagedata_1-492486.fits",
+          "sample_id": "1-492486"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 59,
+          "path": "dataset/raw/imagedata_1-492659.fits",
+          "sample_id": "1-492659"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 476,
+          "path": "dataset/raw/imagedata_1-494837.fits",
+          "sample_id": "1-494837"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 227,
+          "path": "dataset/raw/imagedata_1-494837.fits",
+          "sample_id": "1-494837"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 223,
+          "path": "dataset/raw/imagedata_1-494837.fits",
+          "sample_id": "1-494837"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 235,
+          "path": "dataset/raw/imagedata_1-49908.fits",
+          "sample_id": "1-49908"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 2,
+          "path": "dataset/raw/imagedata_1-508447.fits",
+          "sample_id": "1-508447"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 84,
+          "path": "dataset/raw/imagedata_1-523867.fits",
+          "sample_id": "1-523867"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 731,
+          "path": "dataset/raw/imagedata_1-525427.fits",
+          "sample_id": "1-525427"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 155,
+          "path": "dataset/raw/imagedata_1-529579.fits",
+          "sample_id": "1-529579"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 23,
+          "path": "dataset/raw/imagedata_1-529665.fits",
+          "sample_id": "1-529665"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 148,
+          "path": "dataset/raw/imagedata_1-530775.fits",
+          "sample_id": "1-530775"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 130,
+          "path": "dataset/raw/imagedata_1-530775.fits",
+          "sample_id": "1-530775"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 147,
+          "path": "dataset/raw/imagedata_1-530775.fits",
+          "sample_id": "1-530775"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 186,
+          "path": "dataset/raw/imagedata_1-556811.fits",
+          "sample_id": "1-556811"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 92,
+          "path": "dataset/raw/imagedata_1-556820.fits",
+          "sample_id": "1-556820"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 52,
+          "path": "dataset/raw/imagedata_1-558394.fits",
+          "sample_id": "1-558394"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 787,
+          "path": "dataset/raw/imagedata_1-559668.fits",
+          "sample_id": "1-559668"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 4,
+          "path": "dataset/raw/imagedata_1-565242.fits",
+          "sample_id": "1-565242"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 2903,
+          "path": "dataset/raw/imagedata_1-568564.fits",
+          "sample_id": "1-568564"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 166,
+          "path": "dataset/raw/imagedata_1-568564.fits",
+          "sample_id": "1-568564"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 401,
+          "path": "dataset/raw/imagedata_1-568636.fits",
+          "sample_id": "1-568636"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 372,
+          "path": "dataset/raw/imagedata_1-574699.fits",
+          "sample_id": "1-574699"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 518,
+          "path": "dataset/raw/imagedata_1-575284.fits",
+          "sample_id": "1-575284"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 52,
+          "path": "dataset/raw/imagedata_1-58319.fits",
+          "sample_id": "1-58319"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 9,
+          "path": "dataset/raw/imagedata_1-588624.fits",
+          "sample_id": "1-588624"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 21,
+          "path": "dataset/raw/imagedata_1-588645.fits",
+          "sample_id": "1-588645"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 29,
+          "path": "dataset/raw/imagedata_1-589908.fits",
+          "sample_id": "1-589908"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 2646,
+          "path": "dataset/raw/imagedata_1-591489.fits",
+          "sample_id": "1-591489"
+        },
+        {
+          "hdu_index": 4,
+          "non_finite_count": 18,
+          "path": "dataset/raw/imagedata_1-593610.fits",
+          "sample_id": "1-593610"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 97,
+          "path": "dataset/raw/imagedata_1-597528.fits",
+          "sample_id": "1-597528"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 52,
+          "path": "dataset/raw/imagedata_1-597528.fits",
+          "sample_id": "1-597528"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 288,
+          "path": "dataset/raw/imagedata_1-597528.fits",
+          "sample_id": "1-597528"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 149,
+          "path": "dataset/raw/imagedata_1-597528.fits",
+          "sample_id": "1-597528"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 299,
+          "path": "dataset/raw/imagedata_1-602760.fits",
+          "sample_id": "1-602760"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 309,
+          "path": "dataset/raw/imagedata_1-605742.fits",
+          "sample_id": "1-605742"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 157,
+          "path": "dataset/raw/imagedata_1-607244.fits",
+          "sample_id": "1-607244"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 805,
+          "path": "dataset/raw/imagedata_1-607244.fits",
+          "sample_id": "1-607244"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 6,
+          "path": "dataset/raw/imagedata_1-607835.fits",
+          "sample_id": "1-607835"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 36,
+          "path": "dataset/raw/imagedata_1-612806.fits",
+          "sample_id": "1-612806"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 8,
+          "path": "dataset/raw/imagedata_1-614237.fits",
+          "sample_id": "1-614237"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 29,
+          "path": "dataset/raw/imagedata_1-620117.fits",
+          "sample_id": "1-620117"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 172,
+          "path": "dataset/raw/imagedata_1-624370.fits",
+          "sample_id": "1-624370"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 39,
+          "path": "dataset/raw/imagedata_1-625206.fits",
+          "sample_id": "1-625206"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 35,
+          "path": "dataset/raw/imagedata_1-625206.fits",
+          "sample_id": "1-625206"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 31,
+          "path": "dataset/raw/imagedata_1-626593.fits",
+          "sample_id": "1-626593"
+        },
+        {
+          "hdu_index": 2,
+          "non_finite_count": 13,
+          "path": "dataset/raw/imagedata_1-627352.fits",
+          "sample_id": "1-627352"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 615,
+          "path": "dataset/raw/imagedata_1-633133.fits",
+          "sample_id": "1-633133"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 174,
+          "path": "dataset/raw/imagedata_1-633759.fits",
+          "sample_id": "1-633759"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 1,
+          "path": "dataset/raw/imagedata_1-638535.fits",
+          "sample_id": "1-638535"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 17,
+          "path": "dataset/raw/imagedata_1-638623.fits",
+          "sample_id": "1-638623"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 2,
+          "path": "dataset/raw/imagedata_1-71974.fits",
+          "sample_id": "1-71974"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 127,
+          "path": "dataset/raw/imagedata_1-73464.fits",
+          "sample_id": "1-73464"
+        },
+        {
+          "hdu_index": 3,
+          "non_finite_count": 96,
+          "path": "dataset/raw/imagedata_1-78013.fits",
+          "sample_id": "1-78013"
+        },
+        {
+          "hdu_index": 0,
+          "non_finite_count": 172,
+          "path": "dataset/raw/imagedata_1-81318.fits",
+          "sample_id": "1-81318"
+        },
+        {
+          "hdu_index": 1,
+          "non_finite_count": 1,
+          "path": "dataset/raw/imagedata_1-81318.fits",
+          "sample_id": "1-81318"
+        }
+      ],
+      "hdu_entry_count": 160,
+      "hdu_entry_count_by_band_index": {
+        "0": 78,
+        "1": 38,
+        "2": 19,
+        "3": 16,
+        "4": 9
+      },
+      "non_finite_pixel_count_by_band_index": {
+        "0": 38442,
+        "1": 6692,
+        "2": 6969,
+        "3": 1639,
+        "4": 3099
+      },
+      "source": "dataset/metadata/mask_audit.json",
+      "total_non_finite_pixels": 56841,
+      "unique_file_count": 125
+    },
+    "reused_audit_artifact": {
+      "available": true,
+      "path": "dataset/metadata/mask_audit.json",
+      "problems": [],
+      "valid": true
+    }
+  },
+  "dataset": {
+    "fits_file_count": 5787,
+    "ignored_non_fits_file_count": 1,
+    "ignored_non_fits_files": [
+      "dataset/raw/.gitkeep"
+    ],
+    "image_file_count": 2879,
+    "image_sample_id_count": 2879,
+    "malformed_filename_count": 0,
+    "malformed_filenames": [],
+    "mask_file_count": 2908,
+    "mask_sample_id_count": 2908,
+    "raw_directory": "dataset/raw"
+  },
+  "fits_structure": {
+    "declared_contract": {
+      "band_order": "documented g,r,i,z,y by image HDU index",
+      "band_order_header_verified": false,
+      "expected_image_hdu_count": 5,
+      "expected_mask_data_hdu_count": 1
+    },
+    "image": {
+      "bitpix_distribution": {
+        "-32": 14395
+      },
+      "data_hdu_count_distribution": {
+        "5": 2879
+      },
+      "data_hdu_shape_distribution": {
+        "208x208": 14395
+      },
+      "dtype_distribution": {
+        "float32": 14395
+      },
+      "file_count": 2879,
+      "hdu_count_distribution": {
+        "5": 2879
+      },
+      "nonstandard_data_hdu_count_paths": [],
+      "nonstandard_hdu_count_paths": [],
+      "primary_shape_distribution": {
+        "208x208": 2879
+      },
+      "read_error_count": 0,
+      "read_errors": [],
+      "readable_file_count": 2879,
+      "scaled_hdu_count": 0
+    },
+    "mask": {
+      "bitpix_distribution": {
+        "-64": 2908
+      },
+      "data_hdu_count_distribution": {
+        "1": 2908
+      },
+      "data_hdu_shape_distribution": {
+        "208x208": 2908
+      },
+      "dtype_distribution": {
+        "float64": 2908
+      },
+      "file_count": 2908,
+      "hdu_count_distribution": {
+        "1": 2908
+      },
+      "nonstandard_data_hdu_count_paths": [],
+      "nonstandard_hdu_count_paths": [],
+      "primary_shape_distribution": {
+        "208x208": 2908
+      },
+      "read_error_count": 0,
+      "read_errors": [],
+      "readable_file_count": 2908,
+      "scaled_hdu_count": 0
+    }
+  },
+  "manifest": {
+    "columns": [
+      "sample_id",
+      "image_path",
+      "mask_path",
+      "height",
+      "width"
+    ],
+    "duplicate_sample_id_count": 0,
+    "duplicate_sample_ids": [],
+    "excluded_by_reason": {},
+    "excluded_pair_count": 0,
+    "excluded_pairs": [],
+    "height_width_distribution": {
+      "208x208": 2879
+    },
+    "missing_referenced_files": [],
+    "row_count": 2879,
+    "unique_pair_count": 2879
+  },
+  "pairing": {
+    "ambiguous_id_count": 0,
+    "ambiguous_ids": [],
+    "duplicate_image_id_count": 0,
+    "duplicate_image_ids": [],
+    "duplicate_mask_id_count": 0,
+    "duplicate_mask_ids": [],
+    "one_to_one_pair_count": 2879,
+    "unmatched_image_count": 0,
+    "unmatched_images": [],
+    "unmatched_mask_count": 29,
+    "unmatched_masks": [
+      {
+        "paths": [
+          "dataset/raw/mask_1-120100.fits"
+        ],
+        "sample_id": "1-120100"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-161331.fits"
+        ],
+        "sample_id": "1-161331"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-161621.fits"
+        ],
+        "sample_id": "1-161621"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-161739.fits"
+        ],
+        "sample_id": "1-161739"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-161887.fits"
+        ],
+        "sample_id": "1-161887"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-161897.fits"
+        ],
+        "sample_id": "1-161897"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-162141.fits"
+        ],
+        "sample_id": "1-162141"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-162150.fits"
+        ],
+        "sample_id": "1-162150"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-162262.fits"
+        ],
+        "sample_id": "1-162262"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-162269.fits"
+        ],
+        "sample_id": "1-162269"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-16261.fits"
+        ],
+        "sample_id": "1-16261"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-169815.fits"
+        ],
+        "sample_id": "1-169815"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-170987.fits"
+        ],
+        "sample_id": "1-170987"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-171187.fits"
+        ],
+        "sample_id": "1-171187"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-171253.fits"
+        ],
+        "sample_id": "1-171253"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-171478.fits"
+        ],
+        "sample_id": "1-171478"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-172724.fits"
+        ],
+        "sample_id": "1-172724"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-172948.fits"
+        ],
+        "sample_id": "1-172948"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-172986.fits"
+        ],
+        "sample_id": "1-172986"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-173478.fits"
+        ],
+        "sample_id": "1-173478"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-173507.fits"
+        ],
+        "sample_id": "1-173507"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-173641.fits"
+        ],
+        "sample_id": "1-173641"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-173958.fits"
+        ],
+        "sample_id": "1-173958"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-17413.fits"
+        ],
+        "sample_id": "1-17413"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-174947.fits"
+        ],
+        "sample_id": "1-174947"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-175169.fits"
+        ],
+        "sample_id": "1-175169"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-175184.fits"
+        ],
+        "sample_id": "1-175184"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-175228.fits"
+        ],
+        "sample_id": "1-175228"
+      },
+      {
+        "paths": [
+          "dataset/raw/mask_1-175838.fits"
+        ],
+        "sample_id": "1-175838"
+      }
+    ]
+  },
+  "schema_version": "d2.1",
+  "validation": {
+    "advisory_failures": [
+      "no_unmatched_masks"
+    ],
+    "blocking_failures": [],
+    "checks": {
+      "all_fits_files_recognized": {
+        "details": {
+          "malformed_filename_count": 0
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "all_unique_pairs_valid": {
+        "details": {
+          "excluded_by_reason": {},
+          "excluded_pair_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "dataset_non_empty": {
+        "details": {
+          "image_file_count": 2879,
+          "mask_file_count": 2908
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "image_files_readable": {
+        "details": {
+          "read_error_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "image_hdu_count_matches_contract": {
+        "details": {
+          "expected_hdu_count": 5,
+          "nonstandard_file_count": 0
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "manifest_dimensions_match": {
+        "details": {
+          "dimension_mismatch_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "manifest_files_exist": {
+        "details": {
+          "missing_referenced_file_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "manifest_ids_unique": {
+        "details": {
+          "duplicate_sample_id_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "manifest_row_count_consistent": {
+        "details": {
+          "excluded_pair_count": 0,
+          "manifest_row_count": 2879,
+          "unique_pair_count": 2879
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "mask_data_hdu_count_matches_contract": {
+        "details": {
+          "expected_data_hdu_count": 1,
+          "nonstandard_file_count": 0
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "mask_files_readable": {
+        "details": {
+          "read_error_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "mask_label_inventory_available": {
+        "details": {
+          "reason": null
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "mask_pixels_finite": {
+        "details": {
+          "non_finite_pixel_count": 0
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "mask_raw_values_within_declared_set": {
+        "details": {
+          "declared_allowed_raw_values": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "unexpected_raw_values": []
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "no_ambiguous_ids": {
+        "details": {
+          "ambiguous_id_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "no_duplicate_image_ids": {
+        "details": {
+          "duplicate_image_id_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "no_duplicate_mask_ids": {
+        "details": {
+          "duplicate_mask_id_count": 0
+        },
+        "passed": true,
+        "severity": "blocking"
+      },
+      "no_unmatched_images": {
+        "details": {
+          "unmatched_image_count": 0
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "no_unmatched_masks": {
+        "details": {
+          "unmatched_mask_count": 29
+        },
+        "passed": false,
+        "severity": "advisory"
+      },
+      "non_finite_inventory_available": {
+        "details": {
+          "reason": null
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "reused_audit_artifact_valid": {
+        "details": {
+          "available": true,
+          "problems": []
+        },
+        "passed": true,
+        "severity": "advisory"
+      },
+      "unique_pairs_found": {
+        "details": {
+          "one_to_one_pair_count": 2879
+        },
+        "passed": true,
+        "severity": "blocking"
+      }
+    },
+    "status": "ok"
+  }
+}
